@@ -24,5 +24,11 @@ def main():
 
     # Run exported function, print result
     print(instance.exports.duplicate(21))
+    print(instance.exports.f2c(212.0))
+    print(instance.exports.f2c(32.0))
+    print(instance.exports.f2c(-40.0))
+    print(instance.exports.root(2.0, 4.0, 2.0))
+    print(instance.exports.root(1.0, 1.0, 0.0))
+    print(instance.exports.root(4.0, 5.0, 1.0))
 
 main()
